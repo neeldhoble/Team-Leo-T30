@@ -53,19 +53,19 @@ def scrape_news_with_retries(max_retries=3):
                     if not url.startswith("http"):
                         url = source["url"] + url
 
-                    if title and summary and url:  # Ensure all variables are set
+                    if title and summary and url:  
                         news_data_dict[source["name"]].append({
-                            "timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),  # Add timestamp
+                            "timestamp": time.strftime("%Y-%m-%d %H:%M:%S"), 
                             "source": source["name"],
                             "title": title,
-                            "summary": summary,  # Keeping it as summary for now
+                            "summary": summary,  
                             "url": url
                         })
         except Exception as e:
             print(f"Error scraping {source['name']}: {e}")
-        time.sleep(2)  # Avoid hitting the server too fast
+        time.sleep(2) 
 
-    return news_data_dict  # Return the dictionary instead of the list
+    return news_data_dict  
 
 
 # Save to JSON
