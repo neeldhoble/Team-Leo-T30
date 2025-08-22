@@ -1,0 +1,211 @@
+{
+    "CryptoSlate": [
+        {
+            "title": "Fidelity says Bitcoin could potentially overtake gold, echoing Saylor\u2019s absorption theory",
+            "url": "https://cryptoslate.com/news/bitcoin/",
+            "summary": "No summary available",
+            "vader_sentiment": "Negative",
+            "gpt_sentiment": "Not applicable"
+        },
+        {
+            "title": "Protocols must prove demand as stablecoin liquidity per token falls 99%",
+            "url": "https://cryptoslate.com/news/ethereum/",
+            "summary": "No summary available",
+            "vader_sentiment": "Negative",
+            "gpt_sentiment": "Not applicable"
+        },
+        {
+            "title": "Ethereum\u2019s diverse mix of stablecoins outpaces Tron\u2019s USD dominance",
+            "url": "https://cryptoslate.com/stablecoins/",
+            "summary": "No summary available",
+            "vader_sentiment": "Negative",
+            "gpt_sentiment": "Not applicable"
+        },
+        {
+            "title": "Grayscale pushes for Nasdaq listed Avalanche ETF despite AVAX price dip",
+            "url": "https://cryptoslate.com/etf/",
+            "summary": "No summary available",
+            "vader_sentiment": "Negative",
+            "gpt_sentiment": "Not applicable"
+        },
+        {
+            "title": "FDIC says banks can engage in crypto activities without prior approval",
+            "url": "https://cryptoslate.com/regulation/",
+            "summary": "No summary available",
+            "vader_sentiment": "Negative",
+            "gpt_sentiment": "Not applicable"
+        },
+        {
+            "title": "Trump exonerates BitMEX co-founder in landmark anti-money laundering case",
+            "url": "https://cryptoslate.com/politics/",
+            "summary": "No summary available",
+            "vader_sentiment": "Negative",
+            "gpt_sentiment": "Not applicable"
+        },
+        {
+            "title": "Crypto exchanges at risk: What the industry must learn from the largest Bybit hack",
+            "url": "https://cryptoslate.com/defi/",
+            "summary": "No summary available",
+            "vader_sentiment": "Negative",
+            "gpt_sentiment": "Not applicable"
+        },
+        {
+            "title": "The UX overhaul blockchain needs to reach a billion users",
+            "url": "https://cryptoslate.com/web3/",
+            "summary": "No summary available",
+            "vader_sentiment": "Negative",
+            "gpt_sentiment": "Not applicable"
+        },
+        {
+            "title": "Made in the USA: OpenAI\u2019s strategy to keep American AI competitive",
+            "url": "https://cryptoslate.com/ai/",
+            "summary": "No summary available",
+            "vader_sentiment": "Negative",
+            "gpt_sentiment": "Not applicable"
+        },
+        {
+            "title": "Fidelity says Bitcoin could potentially overtake gold, echoing Saylor\u2019s absorption theory",
+            "url": "https://cryptoslate.com/news/bitcoin/",
+            "summary": "No summary available",
+            "vader_sentiment": "Negative",
+            "gpt_sentiment": "Not applicable"
+        }
+    ],
+    "Decrypt": [
+        {
+            "title": "Coin Prices",
+            "url": "https://decrypt.co//price/bitcoin",
+            "summary": "$82,298.00",
+            "vader_sentiment": "Neutral",
+            "gpt_sentiment": "Not applicable"
+        },
+        {
+            "title": "BTC",
+            "url": "https://decrypt.co//price/bitcoin",
+            "summary": "$82,298.00",
+            "vader_sentiment": "Neutral",
+            "gpt_sentiment": "Not applicable"
+        },
+        {
+            "title": "ETH",
+            "url": "https://decrypt.co//price/ethereum",
+            "summary": "$1,801.46",
+            "vader_sentiment": "Neutral",
+            "gpt_sentiment": "Not applicable"
+        },
+        {
+            "title": "XRP",
+            "url": "https://decrypt.co//price/xrp",
+            "summary": "$2.13",
+            "vader_sentiment": "Neutral",
+            "gpt_sentiment": "Not applicable"
+        },
+        {
+            "title": "BNB",
+            "url": "https://decrypt.co//price/binance-coin",
+            "summary": "$599.54",
+            "vader_sentiment": "Neutral",
+            "gpt_sentiment": "Not applicable"
+        },
+        {
+            "title": "SOL",
+            "url": "https://decrypt.co//price/solana",
+            "summary": "$124.24",
+            "vader_sentiment": "Neutral",
+            "gpt_sentiment": "Not applicable"
+        },
+        {
+            "title": "USDC",
+            "url": "https://decrypt.co//price/usd-coin",
+            "summary": "$0.999945",
+            "vader_sentiment": "Neutral",
+            "gpt_sentiment": "Not applicable"
+        },
+        {
+            "title": "DOGE",
+            "url": "https://decrypt.co//price/dogecoin",
+            "summary": "$0.167812",
+            "vader_sentiment": "Neutral",
+            "gpt_sentiment": "Not applicable"
+        },
+        {
+            "title": "ADA",
+            "url": "https://decrypt.co//price/cardano",
+            "summary": "$0.66351",
+            "vader_sentiment": "Neutral",
+            "gpt_sentiment": "Not applicable"
+        },
+        {
+            "title": "TRX",
+            "url": "https://decrypt.co//price/tron",
+            "summary": "$0.231685",
+            "vader_sentiment": "Neutral",
+            "gpt_sentiment": "Not applicable"
+        }
+    ],
+    "CoinTelegraph": [
+        {
+            "title": "News",
+            "url": "https://cointelegraph.com//news/binance-debuts-centralized-exchange-decentralized-exchange-trades",
+            "summary": "Bridging assets from centralized exchanges to decentralized exchanges has typically been a cumbersome and difficult process for users.",
+            "vader_sentiment": "Negative",
+            "gpt_sentiment": "Not applicable"
+        },
+        {
+            "title": "Opinion",
+            "url": "https://cointelegraph.com//news/stablecoins-are-powering-deobanks",
+            "summary": "Stablecoins power deobanks, a new generation of decentralized banks that offer accessible, efficient and transparent financial solutions, especially in high-risk areas.",
+            "vader_sentiment": "Positive",
+            "gpt_sentiment": "Not applicable"
+        },
+        {
+            "title": "News",
+            "url": "https://cointelegraph.com//news/trump-s-trade-war-pressures-crypto-market-as-april-2-tariffs-loom",
+            "summary": "Bitcoin and stocks face pressure as Trump prepares new tariff announcements for April 2, sparking trade war fears and cooling investor risk appetite.",
+            "vader_sentiment": "Negative",
+            "gpt_sentiment": "Not applicable"
+        },
+        {
+            "title": "Market Update",
+            "url": "https://cointelegraph.com//news/65k-bitcoin-price-targets-pile-up-spoofy-whale-buys-dip",
+            "summary": "Bitcoin sees ten-day lows in weekend trading as most market participants stay braced for further BTC price losses \u2014 can whales save the day with $78,000 bids?",
+            "vader_sentiment": "Negative",
+            "gpt_sentiment": "Not applicable"
+        },
+        {
+            "title": "News",
+            "url": "https://cointelegraph.com//news/what-happened-in-crypto-today",
+            "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, NFTs, Web3 and crypto regulation.",
+            "vader_sentiment": "Neutral",
+            "gpt_sentiment": "Not applicable"
+        },
+        {
+            "title": "News",
+            "url": "https://cointelegraph.com//news/crypto-trader-turns-2k-into-43m-with-pepe-sells-for-10m-profit",
+            "summary": "The savvy trader\u2019s position peaked at $43 million during Pepe\u2019s peak valuation as memecoins continue minting new crypto millionaires.",
+            "vader_sentiment": "Neutral",
+            "gpt_sentiment": "Not applicable"
+        },
+        {
+            "title": "Altcoin Watch",
+            "url": "https://cointelegraph.com//news/xrp-price-2-opportunity-bull-market-end-analysts",
+            "summary": "Some analysts predict a drop below $2, but prevailing bullish continuation and fractal chart patterns are hinting at a long-term target toward $12.50.",
+            "vader_sentiment": "Negative",
+            "gpt_sentiment": "Not applicable"
+        },
+        {
+            "title": "News",
+            "url": "https://cointelegraph.com//news/us-crypto-leaders-seek-stablecoin-guidance-before-tax-reform",
+            "summary": "Crypto industry professionals say US regulation must clarify banking and stablecoins before focusing on taxes, as Trump-backed reforms push crypto into the spotlight.",
+            "vader_sentiment": "Neutral",
+            "gpt_sentiment": "Not applicable"
+        },
+        {
+            "title": "Explained",
+            "url": "https://cointelegraph.com//explained/what-are-crypto-backed-mortgages-and-how-do-they-work",
+            "summary": "Crypto-backed mortgages allow you to secure a home loan using cryptocurrency as collateral. You can invest in real estate while holding your crypto.",
+            "vader_sentiment": "Positive",
+            "gpt_sentiment": "Not applicable"
+        }
+    ]
+}
