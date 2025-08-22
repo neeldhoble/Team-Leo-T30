@@ -4,21 +4,21 @@ import json
 import time
 import random
 
-# Load configuration from JSON file
+
 with open("src/config.json", "r") as config_file:
     config = json.load(config_file)
 
 SOURCES = config["SOURCES"]
 USER_AGENTS = config["USER_AGENTS"]
 
-# Function to scrape news
+
 def scrape_news_with_retries(max_retries=3):
     news_data_dict = {}
 
     for source in SOURCES:
         try:
             print(f"Scraping {source['name']}...")
-            headers = {"User-Agent": random.choice(USER_AGENTS)}  # Use user agents from config
+            headers = {"User-Agent": random.choice(USER_AGENTS)} 
 
             for attempt in range(max_retries):
                 response = requests.get(source["url"], headers=headers)

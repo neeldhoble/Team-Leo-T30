@@ -5,7 +5,6 @@ def main():
     load_dotenv()
     print("🚀 AI CryptoNewsletter Curator Initialized!")
     
-    # Placeholder for modules
     print("🔍 Scraping crypto newsletters...")
     print("📄 Summarizing extracted content...")
     print("📊 Analyzing sentiment...")
