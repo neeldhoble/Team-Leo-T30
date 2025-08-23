@@ -6,17 +6,17 @@ from PIL import Image, ImageDraw, ImageFont
 def generate_image(prompt, save_path):
     """Generates a simple image with text and saves it locally."""
     try:
-        # Create a blank image with white background
+        
         img = Image.new('RGB', (1024, 1024), color='white')
         d = ImageDraw.Draw(img)
 
-        # Load a font
+        
         font = ImageFont.load_default()
 
-        # Draw the prompt text on the image
+        
         d.text((10, 10), prompt, fill=(0, 0, 0), font=font)
 
-        # Save the image
+       
         img.save(save_path)
         print(f"✅ Image saved: {save_path}")
         return save_path
@@ -41,7 +41,7 @@ def process_sentiment_data(input_file="D:/frosthack/AI-CryptoNewsletter-Curator/
             
             final_report[source].append({
                 "title": article["title"],
-                "url": article["url"],  # Changed 'link' to 'url'
+                "url": article["url"],  
                 "summary": article["summary"],
                 "sentiment": article["gpt_sentiment"],
                 "image": generated_image

@@ -25,14 +25,14 @@ def scrape_news_with_retries(max_retries=3):
                 if response.status_code == 200:
                     break
                 print(f"Attempt {attempt + 1} failed. Retrying...")
-                time.sleep(2 ** attempt)  # Exponential backoff
+                time.sleep(2 ** attempt)  
 
             if response.status_code != 200:
                 print(f"Failed to fetch {source['name']} (Status Code: {response.status_code})")
                 continue
 
             soup = BeautifulSoup(response.text, "html.parser")
-            articles = soup.find_all(source["article_tag"])  # Removed class filtering for flexibility
+            articles = soup.find_all(source["article_tag"])  
 
             print(f"Found {len(articles)} articles for {source['name']}.")
 
@@ -40,10 +40,10 @@ def scrape_news_with_retries(max_retries=3):
                 print(f"No articles found for {source['name']}. Check the structure.")
                 continue
 
-            news_data_dict[source["name"]] = []  # Initialize list for this source
-            for article in articles[:10]:  # Limit to 10 articles per source
+            news_data_dict[source["name"]] = []  
+            for article in articles[:10]:  
                 title_tag = article.find("h2") or article.find("h3") or article.find("a")
-                summary_tag = article.find("p")  # Keeping it simple for now
+                summary_tag = article.find("p")  
                 link_tag = article.find("a", href=True)
 
                 if title_tag and link_tag:
@@ -68,14 +68,14 @@ def scrape_news_with_retries(max_retries=3):
     return news_data_dict  
 
 
-# Save to JSON
+
 def save_news(news):
     if not news:
         print("No news articles were scraped. Check sources.")
         return
     
     with open("D:/frosthack/AI-CryptoNewsletter-Curator/data/scraped_data.json", "w", encoding="utf-8") as f:
-        # Save the scraped news data to a JSON file
+        
         json.dump(news, f, indent=4, ensure_ascii=False)
 
     print("✅ News data saved successfully!")
